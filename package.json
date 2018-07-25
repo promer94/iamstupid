@@ -1,0 +1,31 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "LeetCode",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest -o"
+  },
+  "author": "XuYixuan",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.6",
+    "babel-preset-env": "^1.7.0",
+    "regenerator-runtime": "^0.12.0",
+    "eslint": "^5.1.0",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-react-app": "^2.1.0",
+    "eslint-plugin-flowtype": "^2.50.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-react": "^7.10.0",
+    "jest": "^23.4.1",
+    "prettier": "^1.13.7"
+  },
+  "dependencies": {
+    "babel-jest": "^23.4.0"
+  }
+}
