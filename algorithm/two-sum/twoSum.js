@@ -4,12 +4,12 @@
  * @returns {number[]}
  */
 export default function(numArray, target) {
-  const dict = {}
+  const dict = new Map()
   const result = []
 
   numArray.forEach((value, index) => {
-    if (dict[value] !== undefined) result.push([dict[value], index])
-    else dict[target - value] = index
+    if (dict.has(value) === true) result.push([dict.get(value), index])
+    else dict.set(target - value, index)
   })
 
   return result
