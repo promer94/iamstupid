@@ -18,7 +18,7 @@ def three_sum(nums):
                 low += 1
                 continue
             result.insert(-1,[nums[start], nums[low], nums[high]])
-            while(low +1 <len(nums))and (nums[low] == nums[low +1] ):
+            while(low +1 <len(nums)) and (nums[low] == nums[low +1] ):
                 low +=1
             low += 1
         while(start+1<len(nums)) and (nums[start] == nums[start +1]):
