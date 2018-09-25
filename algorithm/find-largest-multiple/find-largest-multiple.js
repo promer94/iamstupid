@@ -9,6 +9,7 @@
  * Find the largest multiple of 3 consecutive numbers that are in a line：
  * For the first horizontal line, the two multiples are 10 * 45 * 90, or 45 * 90 * 11
  * This applies to horizontal, vertical, and diagonal lines.
+ * @param {array} square two dimensional array [[],[]]
  **/
 
 export default function findLargest(square) {

@@ -1,3 +1,8 @@
+/**
+ * @description calculate if there were three elements whose sum is zero
+ * @param {[number]} nums
+ * @returns {[number]} elements add up to zero
+ */
 const threeSum = function(nums) {
   nums.sort((a, b) => a - b)
   const answers = []
