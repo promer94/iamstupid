@@ -5,6 +5,16 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "CodeLens (Launch) - PercolationStats",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "PercolationStats",
+            "args": ""
+        },
+        {
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
