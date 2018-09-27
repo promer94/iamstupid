@@ -10,7 +10,7 @@ def three_sum(nums):
         low = start + 1
         high = len(nums) - 1
         while(low < high):
-            sum = nums[start] + nums[low] + nums[high]
+            sum = nums[low] + nums[start] + nums[high]
             if(sum > 0):
                 high -= 1
                 continue
@@ -26,3 +26,5 @@ def three_sum(nums):
         start += 1
     return result  
          
+if __name__ == "__main__":
+    print(three_sum([-25, -10, -7, -3, 2, 4, 8, 10]))
