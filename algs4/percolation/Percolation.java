@@ -5,10 +5,9 @@ public class Percolation {
     private final WeightedQuickUnionUF perc;
     private final WeightedQuickUnionUF full;
     private final boolean[][] gird;
-    private int size;
-
-    private int top;
-    private int bottom;
+    private final int top;
+    private final int bottom;
+    private final int size;
 
     private int numOfOpen = 0;
 
